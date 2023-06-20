@@ -1,0 +1,19 @@
+{
+  "name": "durkio-bot",
+  "version": "1.0.0",
+  "description": "a slack bot to generate random jokes and quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "dush",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.13.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
